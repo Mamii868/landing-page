@@ -44,6 +44,11 @@ li:hover {
     border-bottom-left-radius: 18px;
     border-bottom-right-radius: 18px;
 }
+
+.header img {
+    border: solid 4px #222222; 
+    border-radius: 24px;
+}
 .headerTitle {
     margin-top: 0;
 }
@@ -73,11 +78,29 @@ li:hover {
 
 .cardContainer {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    margin-bottom: 64px;
 }
 
 .card {
-    width: 200px;
+    width: 180px;
+    text-align: center;
+}
+
+.card img {
+    border: solid 6px #327955;
+    border-radius: 20px;
+}
+.cardText {
+    margin: 6px;
+}
+
+/* Quote */
+.container {
+    text-align: center;
+}
+.quote {
+
+    width: 300px;
     text-align: center;
 }
