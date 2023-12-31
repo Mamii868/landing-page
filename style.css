@@ -78,8 +78,9 @@ li:hover {
 
 .cardContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 64px;
+    margin-top: 48px;
 }
 
 .card {
@@ -96,11 +97,25 @@ li:hover {
 }
 
 /* Quote */
-.container {
-    text-align: center;
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #555555;
+  font-size: 24px;
+  padding: 24px;
 }
 .quote {
-
-    width: 300px;
-    text-align: center;
+    width: 500px;
+    font-style: italic;
+    margin-bottom: 4px;
 }
+
+.author {
+    margin-top: 0px;
+    align-self: flex-end;
+    padding-right: 30%;
+    font-weight: 700;
+    color: white;
+}
+
