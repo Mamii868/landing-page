@@ -16,6 +16,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.navTitle:hover {
+    cursor: pointer;
+}
 ul {
     display: flex;
     gap: 18px;
@@ -26,6 +29,9 @@ ul {
 li {
     list-style: none;
 }
+li:hover {
+    cursor: pointer;
+}
 
 .header {
     background-color: #327955;
@@ -35,7 +41,43 @@ li {
     align-items: start;
     justify-content: center;
     gap: 30px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
 .headerTitle {
     margin-top: 0;
+}
+.headerContainer {
+    width: 350px;
+}
+
+.signUp {
+    background-color: #222222;
+    color: white;
+    border-radius: 16px;
+    cursor: pointer;
+    padding: 8px;
+    transition: 300ms;
+    border: solid 1px #222222;
+}
+
+.signUp:hover {
+    background-color: white;
+    color: #222222;
+}
+
+/* Cards */
+.title {
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
 }
